@@ -19,7 +19,12 @@ const ratingSchema = new Schema({
     type: String,
     ref: 'user',
     required: true
-  }
+  },
+  isDeleted: {
+    type: Boolean,
+    require: true,
+    default: false,
+  },
 }, {
   timestamps: true,
 });

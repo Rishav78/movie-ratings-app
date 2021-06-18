@@ -1,3 +1,4 @@
+import { Pagination } from "./common";
 import { Movie } from "./movie";
 import { User } from "./user";
 
@@ -14,4 +15,9 @@ export interface Review {
   movie: string | Movie;
   createdAt: Date;
   updatedAt: Date;
+}
+
+export interface FindByMovieIdOptions {
+  pagging: Pagination;
+  order?: 1 | -1;
 }

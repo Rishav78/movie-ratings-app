@@ -4,5 +4,11 @@
     "firstName": "admin",
     "lastName": "admin",
     "email": "admin@gmail.com"
+  },
+  {
+    "_id": "2fba6f82-c034-48ae-b0dd-994ea071ebee",
+    "firstName": "rishav",
+    "lastName": "garg",
+    "email": "rishav@gmail.com"
   }
 ]

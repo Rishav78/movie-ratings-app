@@ -9,4 +9,8 @@ router.put("/",
   Validator.body(PostRating), 
   RatingController.postRating);
 
+router.get("/:movie", RatingController.getReviews);
+
+router.get("/", RatingController.avgReviews);
+
 export default router;
