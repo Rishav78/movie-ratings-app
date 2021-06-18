@@ -1,10 +1,12 @@
 import mongoose from 'mongoose';
+import { uuid } from '../../lib/constants';
 const { Schema } = mongoose;
 
 const movieSchema = new Schema({
   _id: {
     type: String,
     require: true,
+    match: [uuid, 'please provide a uuid']
   },
   title:  {
     type: String,

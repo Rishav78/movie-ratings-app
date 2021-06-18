@@ -5,6 +5,8 @@ const ratingSchema = new Schema({
   stars: {
     type: Number,
     require: true,
+    min: 1,
+    max: 10,
   },
   comment: {
     type: String,
