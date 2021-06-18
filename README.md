@@ -1,4 +1,4 @@
-# movie-rating-app
+# movie-ratings-app
 
 
 A NodeJS application where you can add and give review to movies.
