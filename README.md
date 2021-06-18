@@ -7,7 +7,7 @@ For env configuration please check the .env.example file.
 
 ## Seeds or dummy data
 
-To run the seeds move to src directory and run `npm run seeds`. It'll add some dummy data to database.
+Run `npm run seeds`. It'll add some dummy data to database.
 
 ## Available Scripts
 
