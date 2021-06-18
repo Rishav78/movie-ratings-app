@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "src/db/seeds/*.ts",
+    "src/data"
+  ]
+}

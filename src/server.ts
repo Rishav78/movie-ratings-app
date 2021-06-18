@@ -1,5 +1,6 @@
 import express, { Express } from "express";
 import http from "http";
+import Routes from "./routes";
 
 export class Server {
   private readonly app: Express;
@@ -15,7 +16,7 @@ export class Server {
   }
 
   private initRoutes() {
-
+    this.app.use("/api", Routes);
   }
 
   public async init() {
