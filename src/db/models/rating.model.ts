@@ -11,12 +11,12 @@ const ratingSchema = new Schema({
     require: false,
   },
   movie: {
-    type: Schema.Types.ObjectId,
+    type: String,
     ref: 'movie',
     required: true
   },
   user: {
-    type: Schema.Types.ObjectId,
+    type: String,
     ref: 'user',
     required: true
   }

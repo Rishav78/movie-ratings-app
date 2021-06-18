@@ -12,7 +12,7 @@ export class Server {
   }
 
   private initMiddlewares() {
-
+    this.app.use(express.json());
   }
 
   private initRoutes() {
