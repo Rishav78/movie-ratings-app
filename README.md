@@ -45,6 +45,6 @@ Add a new review
 
 Get rating for a specific movie. Here :movie is the movie id.
 
-### `http://localhost:3000/api/rating` GET
+### `http://localhost:3000/api/rating?order=1&&pgNo=0&&pgSize=10` GET
 
 Get rating for all the movies
